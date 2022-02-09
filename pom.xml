@@ -7,7 +7,7 @@
     <groupId>org.deanframework</groupId>
     <artifactId>dean-framework-project</artifactId>
     <packaging>pom</packaging>
-    <version>${deanframework.version}</version>
+    <version>1.0-SNAPSHOT</version>
     <modules>
         <module>dean-framework-component</module>
         <module>dean-framework-common</module>
@@ -19,6 +19,7 @@
         <deanframework.version>1.0-SNAPSHOT</deanframework.version>
         <jdk.version>1.8</jdk.version>
         <encoding>UTF-8</encoding>
+        <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
         <spring.version.number>2.1.1</spring.version.number>
         <spring.version>${spring.version.number}.RELEASE</spring.version>
         <lombok.version>1.18.10</lombok.version>
@@ -30,6 +31,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven-compiler-plugin.version}</version>
                 <configuration>
                     <source>${jdk.version}</source>
                     <target>${jdk.version}</target>
