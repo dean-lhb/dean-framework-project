@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.deanframework</groupId>
+    <artifactId>dean-framework-project</artifactId>
+    <packaging>pom</packaging>
+    <version>${deanframework.version}</version>
+    <modules>
+        <module>dean-framework-component</module>
+        <module>dean-framework-common</module>
+        <module>dean-framework-sample</module>
+        <module>dean-framework-starter</module>
+    </modules>
+
+    <properties>
+        <deanframework.version>1.0-SNAPSHOT</deanframework.version>
+        <jdk.version>1.8</jdk.version>
+        <encoding>UTF-8</encoding>
+        <spring.version.number>2.1.1</spring.version.number>
+        <spring.version>${spring.version.number}.RELEASE</spring.version>
+        <lombok.version>1.18.10</lombok.version>
+        <fastjson.version>1.2.23</fastjson.version>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>${jdk.version}</source>
+                    <target>${jdk.version}</target>
+                    <encoding>${encoding}</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
