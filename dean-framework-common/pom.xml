@@ -5,21 +5,19 @@
     <parent>
         <artifactId>dean-framework-project</artifactId>
         <groupId>io.github.dean-lhb</groupId>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>dean-framework-common</artifactId>
 
     <dependencies>
-        <!-- data注解 -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>${lombok.version}</version>
         </dependency>
 
-        <!-- json -->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>

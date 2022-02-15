@@ -7,7 +7,7 @@
     <groupId>io.github.dean-lhb</groupId>
     <artifactId>dean-framework-project</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 	
 	<name>dean-framework</name>
     <description>dean-framework是一个基于springboot封装的，API快速开发框架，内置了大量常用组件</description>
@@ -38,7 +38,7 @@
     </modules>
 
     <properties>
-        <deanframework.version>1.0.0</deanframework.version>
+        <deanframework.version>1.0.1</deanframework.version>
         <jdk.version>1.8</jdk.version>
         <encoding>UTF-8</encoding>
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
