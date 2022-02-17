@@ -5,21 +5,21 @@
     <parent>
         <artifactId>dean-framework-component</artifactId>
         <groupId>io.github.dean-lhb</groupId>
-        <version>1.0.1</version>
+        <version>1.0.2</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>dean-framework-component-pinyin</artifactId>
 
     <properties>
-        <belerweb.pinyin4j.version>2.5.0</belerweb.pinyin4j.version>
+        <pinyin4j.version>2.5.0</pinyin4j.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>com.belerweb</groupId>
             <artifactId>pinyin4j</artifactId>
-            <version>${belerweb.pinyin4j.version}</version>
+            <version>${pinyin4j.version}</version>
         </dependency>
     </dependencies>
 

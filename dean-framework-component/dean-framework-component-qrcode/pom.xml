@@ -5,21 +5,16 @@
     <parent>
         <artifactId>dean-framework-component</artifactId>
         <groupId>io.github.dean-lhb</groupId>
-        <version>1.0.1</version>
+        <version>1.0.2</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>dean-framework-component-qrcode</artifactId>
 
-    <properties>
-        <google.zxing.version>3.3.3</google.zxing.version>
-    </properties>
-
     <dependencies>
         <dependency>
             <groupId>com.google.zxing</groupId>
             <artifactId>core</artifactId>
-            <version>${google.zxing.version}</version>
         </dependency>
     </dependencies>
 
